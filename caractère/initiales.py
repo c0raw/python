@@ -1,0 +1,5 @@
+prenom = input("Entrez votre prénom : ")
+nom = input("Entrez votre nom : ")
+print("Initiales : ",prenom[0].upper() + nom[0].upper())
+print("Identifiant lycée : ",prenom[0].lower() + nom[:8].lower())
+print(len(prenom), len(nom), len(prenom) + len(nom))
