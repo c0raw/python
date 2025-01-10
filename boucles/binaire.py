@@ -1,6 +1,6 @@
-def decimal_to_binary(n):
-    binary = ""
-    while n > 0:
-        binary = str(n % 2) + binary
-        n = n // 2
-    print(binary)
+n = int(input("Entrez un nombre : "))
+binaire = ""
+while n > 0:
+    binaire = str(n % 2) + binaire
+    n = n // 2
+print(binaire)
