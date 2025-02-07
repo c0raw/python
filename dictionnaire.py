@@ -11,8 +11,8 @@ def score_scrabble(mot, dico):
     return sum(dico[lettre.upper()] for lettre in mot if lettre.upper() in dico)
 
 eleves = {
-    "Alice": ["Maths", "Physique", "Informatique"],
-    "Bob": ["SVT", "Chimie", "Philosophie"]
+    "Léa": ["Maths", "Physique", "Informatique"],
+    "Lucas": ["SVT", "Chimie", "Philosophie"]
 }
 
 def ajouter_eleve(nom, specialites):
