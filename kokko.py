@@ -79,20 +79,20 @@ def menu():
         if choix == '1':
             creerEleve(gestionnaire)
         elif choix == '2':
-            id = input('ID de l'élève: ')
+            id = input("ID de l'élève: ")
             supprimerEleve(gestionnaire, id)
         elif choix == '3':
-            id = input('ID de l'élève: ')
+            id = input("ID de l'élève: ")
             afficherMatiere(gestionnaire, id)
         elif choix == '4':
-            id = input('ID de l'élève: ')
+            id = input("ID de l'élève: ")
             ajouterMatiere(gestionnaire, id)
         elif choix == '5':
-            id = input('ID de l'élève: ')
+            id = input("ID de l'élève: ")
             matiere = input('Nom de la matière: ')
             supprimerMatiere(gestionnaire, id, matiere)
         elif choix == '6':
-            id = input('ID de l'élève: ')
+            id = input("ID de l'élève: ")
             afficherProfilEleve(gestionnaire, id)
         elif choix == '7':
             break
